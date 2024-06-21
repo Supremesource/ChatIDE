@@ -76,6 +76,7 @@
             "gpt-4-turbo",
             "gpt-4",
             "claude-3-opus-20240229",
+            "claude-3-5-sonnet-20240620",
             "custom"
           ],
           "enumDescriptions": [
@@ -141,8 +142,8 @@
           "default": "~/.cache/chatide/",
           "description": "The directory where the conversation will be automatically saved. If empty, auto-save will be disabled.",
           "scope": "window"
-         },
-         "chatide.autoSaveEnabled": {
+        },
+        "chatide.autoSaveEnabled": {
           "type": "boolean",
           "default": true,
           "description": "When enabled, the conversation will be automatically saved to the directory specified in 'chatide.autoSaveDirectory'.",
